@@ -8,11 +8,20 @@ const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
 	const navigate = useNavigate();
-	const [loading, setLoading] = useState(false);
+	const [loading, setLoading] = useState(true);
 
 	const [user, setUser] = useState(null);
 
 	useEffect(() => {
+		// Check if user is authenticated when the component mounts
+		const cookieFallback = localStorage.getItem('cookieFallback');
+		if (cookieFallback) {
+		  const sessionData = JSON.parse(cookieFallback);
+		  if (sessionData && sessionData.a_session_662254954734fb37416e) {
+			// If session exists, consider the user as authenticated
+			setUser({}); // You can replace this with actual user data if available
+		  }
+		}
 		setLoading(false);
 		getUserOnLoad();
 	}, []);
