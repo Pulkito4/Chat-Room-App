@@ -30,8 +30,8 @@ This project is a real-time chatroom application built using React with Vite as 
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/chatroom-app.git`
-2. Navigate to the project directory: `cd chatroom-app`
+1. Clone the repository: `git clone https://github.com/Pulkito4/Chat-Room-App.git`
+2. Navigate to the project directory: `cd Chat-Room-App`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm run dev`
 5. Open the application in your web browser at `http://localhost:5173` or whatever server is available.
@@ -44,7 +44,7 @@ This project is a real-time chatroom application built using React with Vite as 
 
 ## Deployment
 
-This project is deployed on Vercel and can be accessed using the following link: [Chatroom App](link)
+This project is deployed on Vercel and can be accessed using the following link: [Chatroom App](chat-room-app-sigma.vercel.app)
 
 ## Contributing
 
