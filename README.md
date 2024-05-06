@@ -34,7 +34,7 @@ This project is a real-time chatroom application built using React with Vite as 
 2. Navigate to the project directory: `cd chatroom-app`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm run dev`
-5. Open the application in your web browser at `http://localhost:3000`.
+5. Open the application in your web browser at `http://localhost:5173` or whatever server is available.
 
 ## Usage
 
@@ -44,7 +44,7 @@ This project is a real-time chatroom application built using React with Vite as 
 
 ## Deployment
 
-This project is deployed on Vercel and can be accessed using the following link: [Chatroom App](www.google.com) // adding google just for testing link 
+This project is deployed on Vercel and can be accessed using the following link: [Chatroom App](link)
 
 ## Contributing
 
