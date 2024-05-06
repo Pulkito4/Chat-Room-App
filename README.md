@@ -44,7 +44,7 @@ This project is a real-time chatroom application built using React with Vite as 
 
 ## Deployment
 
-This project is deployed on Vercel and can be accessed using the following link: chat-room-app-sigma.vercel.app
+This project is deployed on Vercel and can be accessed using the following link: [https://chat-room-app-sigma.vercel.app]
 
 ## Contributing
 
